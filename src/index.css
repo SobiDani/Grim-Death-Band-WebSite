@@ -1,0 +1,32 @@
+@font-face {
+  font-family: shirens;
+  src: url(../fonts/shirens.ttf);
+}
+
+body {
+  margin: 0;
+
+  font-family: shirens;
+  background-image: url("https://res.cloudinary.com/dzivvzwq0/image/upload/v1656193480/imagenes/AdobeStock_271556216_uxfye3.jpg");
+  background-size: 100vw;
+
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li{
+  list-style: none;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

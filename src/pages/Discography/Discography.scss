@@ -1,0 +1,31 @@
+.discography{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 2em;
+    justify-content: center;
+    width: 85vw;
+
+    figure{
+        width: 25rem;
+        transition: 0.5s;
+        img{
+            width: 22rem;
+            margin: 1em;
+        }
+
+        p{
+            color: rgb(215, 140, 0);
+
+        }
+
+        .yearAlbum{
+            color: white;
+        }
+
+        &:hover{
+            transform: scale(1.05);
+            transition: 0.5s;
+        }
+    }
+}

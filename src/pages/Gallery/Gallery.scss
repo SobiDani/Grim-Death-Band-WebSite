@@ -1,0 +1,72 @@
+.galleryP{
+    width: 89vw;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+figure{
+    max-width: 374px;
+    max-height: 542px;
+
+    img{
+        width: 95%;
+        border: double black 7px;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.05);
+            transition: .3s;
+        }
+    }
+}
+}
+
+.main{
+    margin: 2em 0;
+    width: 80%;
+}
+
+
+
+
+.divBotonAdmin{
+width: 89vw;
+margin: 5em 0;
+}
+
+
+.botonAdmin{
+    
+    color: rgb(248, 248, 248);
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: end;
+        position: relative;
+        transition: 0.5s;
+
+
+        &:hover {
+            transition: 0.5s;
+            color: orange;
+            margin-right: 0;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 10%;
+            top: 35%;
+            bottom: 0;
+            left: 0;
+            background-color: orange;
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+          }
+  
+          &:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+}
+

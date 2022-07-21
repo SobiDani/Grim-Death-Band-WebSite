@@ -1,0 +1,29 @@
+.photoHead{
+    width: 35em;
+    filter: brightness(80%);
+    margin: 4em 0 1em 0;
+}
+
+.registerh2{
+    margin-bottom: 2em;
+}
+
+input{
+    margin-bottom: 2em;
+    width: 35em;
+    height: 2em;
+    filter: brightness(80%);
+p{
+    font-size: 30em;
+}
+    
+}
+
+
+input, select, textarea{
+    color: rgb(158, 97, 0);
+}
+
+textarea:focus, input:focus {
+    color: rgb(158, 102, 0);
+}
